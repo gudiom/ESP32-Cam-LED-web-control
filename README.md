@@ -15,6 +15,8 @@ http://ipcam/ledoff
 Then the GPIO4 will set to HIGH or LOW and a simple JSON output with LED:true or LED:false is generated. 
 It's not pretty but it works. 
 
+Changes were made only to app_httpd.cpp
+
 Have fun with it. 
 
 
