@@ -12,9 +12,9 @@ Or
 
 http://ipcam/ledoff
 
-Then the GPIO4 will set to HIGH or LOW and a simple JSON output with LED:true or LED:false is generated. 
+Then the GPIO4 will set to HIGH or LOW, the LED goes on or off and a simple JSON output with LED:true or LED:false is generated. 
 It's not pretty but it works. GPIO4 should only be responsible for the LED when no SD card is insert. 
-I have never worked with the intern sd card slot until now.
+I have never worked with the intern sd card slot.
 
 Changes were made only to app_httpd.cpp
 
